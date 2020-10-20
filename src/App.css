@@ -6,21 +6,14 @@
 .sky{
   width: 100vw;
   height: 100vh;
-  background-image: linear-gradient( to left,  rgb(182, 0, 206),  rgb(46, 0, 31)) ;
+  background-image: linear-gradient( to left, #002a85,  #020020, #000000) ;
 }
 
 .star{
   position: absolute;
   z-index: 20;
   width: 20vw ;
-  margin: 20vh 40vw;
-}
-
-.star-bg{
-  position: absolute;
-  z-index: 19;
-  width: 24vw ;
-  margin: 16vh 38vw;
+  margin: 30vh 0 0 40vw;
 }
 
 .name-container{
@@ -29,16 +22,15 @@
   flex-direction: column;
   align-items: center;
   width: 40vw ;
-  margin: 31vh 30vw;
+  margin: 41vh 0 0 30vw;
   z-index: 50;
 }
 
 .new {
-  font-size: 5.2em;
+  font-size: 4.5em;
   font-family: "Open Sans";
   color: transparent;
   letter-spacing: -2px;
-  transform: rotate(-5deg);
 }
 .new > .letter {
   -webkit-text-stroke: 2px #F4C6F4;
@@ -49,14 +41,13 @@
 }
 
 .retro {
-  font-size: 6rem;
+  font-size: 6.5rem;
   font-weight: 800;
   display: block;
   text-transform: uppercase;
-  letter-spacing: -6px;
-  margin: -38px 0 -60px;
+  letter-spacing: -10px;
+  margin: -40px 0 -70px;
   z-index: 105;
-  transform: rotate(-5deg);
 }
 .retro > .letter {
   display: inline-block;
@@ -72,7 +63,7 @@
   position: relative;
   z-index: 100;
   font-family: "OutRun", "Helvetica", sans-serif;
-  font-size: 3.8em;
+  font-size: 4em;
   color: #FA26F7;
   text-transform: uppercase;
   transform: rotate(-3deg) skew(-3deg);
@@ -116,7 +107,7 @@
 
 .ground{
   position: absolute;
-  background-image: linear-gradient( to left bottom, #ff4d4d 10%, #750075 50%, rgb(49, 0, 49));
+  background-image: linear-gradient( to left bottom, #ff7e06, #750975 20%, #160016 60%);
   height: 55vh;
   width: 100vw;
   bottom: 0;

@@ -5,13 +5,11 @@ import Mountain from './assets/img/mountain.svg'
 import Tree from './assets/img/tree.svg'
 import Cactus from './assets/img/cactus.svg'
 import Star from './assets/img/star.svg'
-import Starbg from './assets/img/star-bg.svg'
 
 function App() {
   return (
     <div className="sky">
       <img className="star" src={Star}></img>
-      <img className="star-bg" src={Starbg}></img>
       <div className="name-container">
         <div className="new">
           <div className="letter">oEstranho</div>
